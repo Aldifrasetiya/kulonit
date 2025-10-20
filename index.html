@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Kulonit - Belajar Skill IT #diluarkampus</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
+  <body class="bg-custom-light">
+    <!-- Navigation -->
+    <nav class="hero-gradient text-white sticky top-0 z-50 shadow-lg">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+          <div class="flex items-center space-x-2">
+            <div class="w-10 h-10 rounded-lg flex items-center justify-center">
+              <img
+                src="assets/logo/logo-kulonit-putih.png"
+                alt=""
+              />
+              <!-- <span class="text-slate-800 font-bold text-xl">ZS</span> -->
+            </div>
+          </div>
+
+          <div class="hidden md:flex space-x-8">
+            <a
+              href="#"
+              class="hover:text-gray-300 transition"
+              >Home</a
+            >
+            <a
+              href="#about"
+              class="hover:text-gray-300 transition"
+              >About</a
+            >
+            <a
+              href="#portofolio"
+              class="hover:text-gray-300 transition"
+              >Portofolio</a
+            >
+            <a
+              href="#product"
+              class="hover:text-gray-300 transition"
+              >Product</a
+            >
+          </div>
+
+          <a
+            href="https://api.whatsapp.com/send/?phone=6288290449738"
+            class="bg-white text-slate-800 px-6 py-2 rounded-lg font-semibold hover:bg-gray-100 transition"
+            style="color: #212529"
+          >
+            Hubungi Kami
+          </a>
+
+          <button
+            class="md:hidden text-white"
+            id="mobileMenuBtn"
+          >
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div
+        id="mobileMenu"
+        class="hidden md:hidden bg-slate-700 px-4 py-4"
+      >
+        <a
+          href="#"
+          class="block py-2 hover:text-gray-300"
+          >Home</a
+        >
+        <a
+          href="#about"
+          class="block py-2 hover:text-gray-300"
+          >About</a
+        >
+        <a
+          href="#portofolio"
+          class="block py-2 hover:text-gray-300"
+          >Portofolio</a
+        >
+        <a
+          href="#product"
+          class="block py-2 hover:text-gray-300"
+          >Product</a
+        >
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white relative pt-20 overflow-hidden">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div class="fade-in">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4">
+              Belajar Skill IT<br />
+              <span class="text-blue-400">#diluarkampus</span>
+            </h1>
+            <p class="text-gray-300 text-lg mb-8">
+              Pilih learning path sesuai minatmu
+            </p>
+            <button
+              class="bg-white text-slate-800 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition shadow-lg"
+              style="color: #212529"
+            >
+              Explore Now
+            </button>
+          </div>
+
+          <div class="mt-16 relative">
+            <img
+              src="assets/asset-2.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Section -->
+    <section
+      id="about"
+      class="py-20"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <div
+            class="flex flex-wrap justify-center items-center mx-auto gap-x-2 w-[145px] h-[36px] bg-slate-800 px-4 py-2 rounded-full"
+          >
+            <img
+              src="assets/icons/Star (1).png"
+              alt=""
+            />
+            <p class="text-white text-sm font-semibold">Top Product</p>
+          </div>
+          <h2 class="text-4xl font-bold mt-6 mb-4">Product Kulonit</h2>
+          <p class="text-gray-600">
+            Beberapa product kulonit yang bisa kamu akses
+          </p>
+        </div>
+
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-y-3"
+        >
+          <div
+            class="flex flex-row bg-white mx-auto w-[249px] h-[101px] justify-start items-center space-x-6 rounded-2xl p-6 shadow-lg card-hover border-2 border-gray-100"
+          >
+            <img
+              src="assets/icons/ebook.png"
+              alt=""
+            />
+            <h3 class="text-xl font-bold">E-Book</h3>
+          </div>
+          <div
+            class="flex flex-row bg-white mx-auto w-[249px] h-[101px] justify-start items-center space-x-6 rounded-2xl p-6 shadow-lg card-hover border-2 border-gray-100"
+          >
+            <img
+              src="assets/icons/ecourse.png"
+              alt=""
+            />
+            <h3 class="text-xl font-bold">E-Course</h3>
+          </div>
+          <div
+            class="flex flex-row bg-white mx-auto w-[249px] h-[101px] justify-start items-center space-x-6 rounded-2xl p-6 shadow-lg card-hover border-2 border-gray-100"
+          >
+            <img
+              src="assets/icons/service.png"
+              alt=""
+            />
+            <h3 class="text-xl font-bold">Jasa Pembuatan Website</h3>
+          </div>
+          <div
+            class="flex flex-row bg-white mx-auto w-[249px] h-[101px] justify-start items-center space-x-6 rounded-2xl p-6 shadow-lg card-hover border-2 border-gray-100"
+          >
+            <img
+              src="assets/icons/source-code.png"
+              alt=""
+            />
+            <h3 class="text-xl font-bold">Source Code</h3>
+          </div>
+
+          <!-- <div
+            class="bg-white rounded-2xl p-6 shadow-lg card-hover border-2 border-gray-100"
+          >
+            <div class="bg-gray-100 rounded-xl p-4 mb-4 inline-block">
+              <svg
+                class="w-8 h-8 text-slate-800"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"
+                />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold mb-2">E-Course</h3>
+          </div>
+
+          <div
+            class="bg-white rounded-2xl p-6 shadow-lg card-hover border-2 border-gray-100"
+          >
+            <div class="bg-gray-100 rounded-xl p-4 mb-4 inline-block">
+              <svg
+                class="w-8 h-8 text-slate-800"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path d="M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4z" />
+                <path
+                  fill-rule="evenodd"
+                  d="M18 9H2v5a2 2 0 002 2h12a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z"
+                />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold mb-2">
+              Jasa<br />Pembuatan<br />Website
+            </h3>
+          </div>
+
+          <div
+            class="bg-white rounded-2xl p-6 shadow-lg card-hover border-2 border-gray-100"
+          >
+            <div class="bg-gray-100 rounded-xl p-4 mb-4 inline-block">
+              <svg
+                class="w-8 h-8 text-slate-800"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z"
+                />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold mb-2">Source<br />Code</h3>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Go Digital Section -->
+    <section
+      class="py-20 bg-white"
+      id="portofolio"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="mb-8">
+          <div
+            class="flex flex-wrap justify-center items-center gap-x-2 w-[145px] h-[36px] bg-slate-800 px-4 py-2 rounded-full"
+          >
+            <img
+              src="assets/icons/Crown.png"
+              alt=""
+            />
+            <p class="text-white text-sm font-semibold">Portofolio</p>
+          </div>
+          <h2 class="text-4xl font-bold mt-6 mb-4">Go Digital with Kulonit</h2>
+          <p class="text-gray-600">
+            Segera buat websitemu sendiri, kulonit siap bantu!
+          </p>
+        </div>
+
+        <div class="relative">
+          <div class="overflow-hidden py-5">
+            <div
+              class="flex transition-transform duration-500 ease-out"
+              id="carousel1"
+            >
+              <div
+                class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl shadow-lg overflow-hidden card-hover mx-3"
+              >
+                <img
+                  src="assets/portofolio/Porto-1.png"
+                  alt="Course"
+                  class="w-full h-50 object-cover"
+                />
+                <div class="p-6">
+                  <h3 class="text-xl font-bold mb-2">
+                    Company Profile <br />
+                    PT Hikari Mentari Sakti (HMS)
+                  </h3>
+                  <div class="flex items-center space-x-1 star-rating">
+                    <span>★★★★★</span>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl shadow-lg overflow-hidden card-hover mx-3"
+              >
+                <img
+                  src="assets/portofolio/Porto-2.png"
+                  alt="Course"
+                  class="w-full h-50 object-cover"
+                />
+                <div class="p-6">
+                  <h3 class="text-xl font-bold mb-2">
+                    Sistem Informasi Penjualan (SISPRODKF) <br />
+                    PT DKF Wahana Solusindo
+                  </h3>
+                  <div class="flex items-center space-x-1 star-rating">
+                    <span>★★★★★</span>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl shadow-lg overflow-hidden card-hover mx-3"
+              >
+                <img
+                  src="assets/portofolio/Porto-3.png"
+                  alt="Course"
+                  class="w-full h-50 object-cover"
+                />
+                <div class="p-6">
+                  <h3 class="text-xl font-bold mb-2">
+                    Company Profile <br />
+                    PT DKF Wahana Solusindo
+                  </h3>
+                  <div class="flex items-center space-x-1 star-rating">
+                    <span>★★★★★</span>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl shadow-lg overflow-hidden card-hover mx-3"
+              >
+                <img
+                  src="assets/portofolio/Porto-4.png"
+                  alt="Course"
+                  class="w-full h-50 object-cover"
+                />
+                <div class="p-6">
+                  <h3 class="text-xl font-bold mb-2">
+                    Website Desa Sirnamanah <br />
+                    Darangdan, Purwakarta
+                  </h3>
+                  <div class="flex items-center space-x-1 star-rating">
+                    <span>★★★★★</span>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl shadow-lg overflow-hidden card-hover mx-3"
+              >
+                <img
+                  src="assets/portofolio/Porto-5.png"
+                  alt="Course"
+                  class="w-full h-50 object-cover"
+                />
+                <div class="p-6">
+                  <h3 class="text-xl font-bold mb-2">
+                    Sistem Display Informasi <br />PT Pupuk Kujang
+                  </h3>
+                  <div class="flex items-center space-x-1 star-rating">
+                    <span>★★★★★</span>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl shadow-lg overflow-hidden card-hover mx-3"
+              >
+                <img
+                  src="assets/portofolio/Porto-6.png"
+                  alt="Course"
+                  class="w-full h-50 object-cover"
+                />
+                <div class="p-6">
+                  <h3 class="text-xl font-bold mb-2">
+                    Website Perkumpulan Suku Batak
+                  </h3>
+                  <div class="flex items-center space-x-1 star-rating">
+                    <span>★★★★★</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="absolute left-0 top-1/2 -translate-y-1/2 bg-white rounded-full p-3 shadow-lg hover:bg-gray-100 z-10"
+            onclick="slideCarousel('carousel1', -1)"
+            id="prevBtn1"
+          >
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              ></path>
+            </svg>
+          </button>
+
+          <button
+            class="absolute right-0 top-1/2 -translate-y-1/2 bg-white rounded-full p-3 shadow-lg hover:bg-gray-100 z-10"
+            onclick="slideCarousel('carousel1', 1)"
+            id="nextBtn1"
+          >
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5l7 7-7 7"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Section -->
+    <section
+      id="product"
+      class="py-20"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="mb-8">
+          <div
+            class="flex flex-wrap justify-center items-center gap-x-2 w-[160px] h-[36px] bg-slate-800 px-4 py-2 rounded-full"
+          >
+            <img
+              src="assets/icons/Product.png"
+              alt=""
+            />
+            <p class="text-white text-sm font-semibold">Digital Product</p>
+          </div>
+          <h2 class="text-4xl font-bold mt-6 mb-4">
+            Don't Missed It, Learn Now
+          </h2>
+          <p class="text-gray-600">
+            Berbagai kebutuhan belajar yang bisa dipelajari kapanpun!
+          </p>
+        </div>
+
+        <div class="relative">
+          <div class="overflow-hidden py-6">
+            <div
+              class="flex transition-transform duration-500 ease-out"
+              id="carousel2"
+            >
+              <div
+                class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl shadow-lg overflow-hidden card-hover mx-3"
+              >
+                <img
+                  src="assets/Product/Product-5.jpg"
+                  alt="Course"
+                  class="w-full h-50 object-cover"
+                />
+                <div class="p-6">
+                  <h3 class="text-xl font-bold mb-2">
+                    Source Code: <br />Website Portofolio v2 (BASIC & PRO)
+                  </h3>
+                  <div class="flex items-center justify-between mb-4">
+                    <div class="flex items-center space-x-1 star-rating">
+                      <span>★★★★★</span>
+                    </div>
+                    <span class="text-sm text-gray-600">Source Code</span>
+                  </div>
+                  <div class="flex items-center space-x-3">
+                    <a
+                      href="https://lynk.id/kulonitcom/wn8dz8jq417v"
+                      class="bg-[#212529] w-full py-2 rounded-full text-center text-white"
+                      >BASIC</a
+                    >
+                    <a
+                      href="https://lynk.id/kulonitcom/4l3y43k8grpl"
+                      class="bg-[#212529] w-full py-2 rounded-full text-center text-white"
+                      >PRO</a
+                    >
+                    <!-- <img
+                      src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle fill='%23cbd5e1' cx='20' cy='20' r='20'/%3E%3C/svg%3E"
+                      alt="Instructor"
+                      class="w-10 h-10 rounded-full"
+                    />
+                    <div>
+                      <p class="font-semibold text-sm">
+                        Asif Lukman Putra Perkasa, S. Kom
+                      </p>
+                      <p class="text-xs text-gray-600">Web Developer Expert</p>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+              <div
+                class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl shadow-lg overflow-hidden card-hover mx-3"
+              >
+                <img
+                  src="assets/Product/Product-1.jpg"
+                  alt="Course"
+                  class="w-full h-50 object-cover"
+                />
+                <div class="p-6">
+                  <h3 class="text-xl font-bold mb-2">
+                    Sistem Informasi Klinik Berbasis Web: <br />Laravel 11,
+                    Breeze, Spatie
+                  </h3>
+                  <div class="flex items-center justify-between mb-4">
+                    <div class="flex items-center space-x-1 star-rating">
+                      <span>★★★★★</span>
+                    </div>
+                    <span class="text-sm text-gray-600">E-course</span>
+                  </div>
+                  <div class="flex items-center space-x-3">
+                    <a
+                      href="https://kulonitcom-60334.myr.id/pl/kelas-laravel-11-membuat-sistem-informasi-klinik-berbasis-web"
+                      class="bg-[#212529] w-full py-2 rounded-full text-center text-white"
+                      >Pelajari Sekarang</a
+                    >
+                    <!-- <img
+                      src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle fill='%23cbd5e1' cx='20' cy='20' r='20'/%3E%3C/svg%3E"
+                      alt="Instructor"
+                      class="w-10 h-10 rounded-full"
+                    />
+                    <div>
+                      <p class="font-semibold text-sm">
+                        Asif Lukman Putra Perkasa, S. Kom
+                      </p>
+                      <p class="text-xs text-gray-600">Web Developer Expert</p>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+              <div
+                class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl shadow-lg overflow-hidden card-hover mx-3"
+              >
+                <img
+                  src="assets/Product/Product-2.jpg"
+                  alt="Course"
+                  class="w-full h-50 object-cover"
+                />
+                <div class="p-6">
+                  <h3 class="text-xl font-bold mb-2">
+                    E-Book Kepo AI: <br />
+                    Cara Kerja Kecerdasan Buatan dibalik Layar
+                  </h3>
+                  <div class="flex items-center justify-between mb-4">
+                    <div class="flex items-center space-x-1 star-rating">
+                      <span>★★★★★</span>
+                    </div>
+                    <span class="text-sm text-gray-600">E-book</span>
+                  </div>
+                  <div class="flex items-center space-x-3">
+                    <a
+                      href="https://lynk.id/kulonitcom/nl2zw2zk68yq"
+                      class="bg-[#212529] w-full py-2 rounded-full text-center text-white"
+                      >Pelajari Sekarang</a
+                    >
+                    <!-- <img
+                      src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle fill='%23cbd5e1' cx='20' cy='20' r='20'/%3E%3C/svg%3E"
+                      alt="Instructor"
+                      class="w-10 h-10 rounded-full"
+                    />
+                    <div>
+                      <p class="font-semibold text-sm">
+                        Asif Lukman Putra Perkasa, S. Kom
+                      </p>
+                      <p class="text-xs text-gray-600">Web Developer Expert</p>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+              <div
+                class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl shadow-lg overflow-hidden card-hover mx-3"
+              >
+                <img
+                  src="assets/Product/Product-3.jpg"
+                  alt="Course"
+                  class="w-full h-50 object-cover"
+                />
+                <div class="p-6">
+                  <h3 class="text-xl font-bold mb-2">
+                    E-book Blueprint ERD Mastery: <br />
+                    Merancang Database ERD Tanpa Ribet!
+                  </h3>
+                  <div class="flex items-center justify-between mb-4">
+                    <div class="flex items-center space-x-1 star-rating">
+                      <span>★★★★★</span>
+                    </div>
+                    <span class="text-sm text-gray-600">E-book</span>
+                  </div>
+                  <div class="flex items-center space-x-3">
+                    <a
+                      href="https://lynk.id/kulonitcom/DVxmRqo"
+                      class="bg-[#212529] w-full py-2 rounded-full text-center text-white"
+                      >Pelajari Sekarang</a
+                    >
+                    <!-- <img
+                      src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle fill='%23cbd5e1' cx='20' cy='20' r='20'/%3E%3C/svg%3E"
+                      alt="Instructor"
+                      class="w-10 h-10 rounded-full"
+                    />
+                    <div>
+                      <p class="font-semibold text-sm">
+                        Asif Lukman Putra Perkasa, S. Kom
+                      </p>
+                      <p class="text-xs text-gray-600">Web Developer Expert</p>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+              <div
+                class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl shadow-lg overflow-hidden card-hover mx-3"
+              >
+                <img
+                  src="assets/Product/Product-4.jpg"
+                  alt="Course"
+                  class="w-full h-50 object-cover"
+                />
+                <div class="p-6">
+                  <h3 class="text-xl font-bold mb-2">
+                    E-Book JavaScript Unlocked: <br />
+                    Panduan Belajar JavaScript dalam 30 Hari!
+                  </h3>
+                  <div class="flex items-center justify-between mb-4">
+                    <div class="flex items-center space-x-1 star-rating">
+                      <span>★★★★★</span>
+                    </div>
+                    <span class="text-sm text-gray-600">E-book</span>
+                  </div>
+                  <div class="flex items-center space-x-3">
+                    <a
+                      href="https://lynk.id/kulonitcom/zn6gln5xzj6v"
+                      class="bg-[#212529] w-full py-2 rounded-full text-center text-white"
+                      >Pelajari Sekarang</a
+                    >
+                    <!-- <img
+                      src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle fill='%23cbd5e1' cx='20' cy='20' r='20'/%3E%3C/svg%3E"
+                      alt="Instructor"
+                      class="w-10 h-10 rounded-full"
+                    />
+                    <div>
+                      <p class="font-semibold text-sm">
+                        Asif Lukman Putra Perkasa, S. Kom
+                      </p>
+                      <p class="text-xs text-gray-600">Web Developer Expert</p>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="absolute left-0 top-1/2 -translate-y-1/2 bg-white rounded-full p-3 shadow-lg hover:bg-gray-100 z-10"
+            onclick="slideCarousel('carousel2', -1)"
+            id="prevBtn2"
+          >
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              ></path>
+            </svg>
+          </button>
+
+          <button
+            class="absolute right-0 top-1/2 -translate-y-1/2 bg-white rounded-full p-3 shadow-lg hover:bg-gray-100 z-10"
+            onclick="slideCarousel('carousel2', 1)"
+            id="nextBtn2"
+          >
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5l7 7-7 7"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section
+      class="hidden lg:block py-20 overflow-hidden"
+      style="background-color: #212529"
+    >
+      <div class="mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <div
+            class="flex flex-wrap justify-center items-center mx-auto gap-x-2 w-[169px] h-[36px] bg-white px-4 py-2 rounded-full"
+          >
+            <img
+              src="assets/icons/Medal.png"
+              alt=""
+            />
+            <p class="text-[#212529] text-sm font-semibold">Success Stories</p>
+          </div>
+          <h2 class="text-4xl font-bold mt-6 mb-4 text-white">
+            Apa Kata Mereka?
+          </h2>
+          <p class="text-gray-300">Cerita dari client untuk kulonit</p>
+        </div>
+
+        <!-- First Row - Scrolling Left to Right -->
+        <div class="mb-6">
+          <div class="testimonial-row animate-scroll-right">
+            <div class="flex gap-6">
+              <div
+                class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl p-6"
+                style="color: #212529"
+              >
+                <div class="flex items-center space-x-3 mb-4">
+                  <img
+                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle fill='%23cbd5e1' cx='20' cy='20' r='20'/%3E%3C/svg%3E"
+                    alt="User"
+                    class="w-12 h-12 rounded-full"
+                  />
+                  <div><h4 class="font-bold">Anton</h4></div>
+                </div>
+                <p class="text-sm text-gray-600 mb-4">
+                  Course ini sangat membantu seoula! membuat proyek lebih lancar
+                  dan lebih cepat.
+                </p>
+                <div class="flex items-center space-x-1 star-rating">
+                  <span>★★★★★</span>
+                </div>
+              </div>
+
+              <div
+                class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl p-6"
+                style="color: #212529"
+              >
+                <div class="flex items-center space-x-3 mb-4">
+                  <img
+                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle fill='%23cbd5e1' cx='20' cy='20' r='20'/%3E%3C/svg%3E"
+                    alt="User"
+                    class="w-12 h-12 rounded-full"
+                  />
+                  <div><h4 class="font-bold">Budi</h4></div>
+                </div>
+                <p class="text-sm text-gray-600 mb-4">
+                  Ia e-course ini sangat worth it untuk yang mau mulai belajar
+                  bahasa baru di dunia IT.
+                </p>
+                <div class="flex items-center space-x-1 star-rating">
+                  <span>★★★★★</span>
+                </div>
+              </div>
+
+              <div
+                class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl p-6"
+                style="color: #212529"
+              >
+                <div class="flex items-center space-x-3 mb-4">
+                  <img
+                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle fill='%23cbd5e1' cx='20' cy='20' r='20'/%3E%3C/svg%3E"
+                    alt="User"
+                    class="w-12 h-12 rounded-full"
+                  />
+                  <div><h4 class="font-bold">Siti</h4></div>
+                </div>
+                <p class="text-sm text-gray-600 mb-4">
+                  Ya e-course ini sangat worth it untuk yang mau mulai belajar
+                  sistem baru di bidang IT.
+                </p>
+                <div class="flex items-center space-x-1 star-rating">
+                  <span>★★★★★</span>
+                </div>
+              </div>
+
+              <div
+                class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl p-6"
+                style="color: #212529"
+              >
+                <div class="flex items-center space-x-3 mb-4">
+                  <img
+                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle fill='%23cbd5e1' cx='20' cy='20' r='20'/%3E%3C/svg%3E"
+                    alt="User"
+                    class="w-12 h-12 rounded-full"
+                  />
+                  <div><h4 class="font-bold">Dewi</h4></div>
+                </div>
+                <p class="text-sm text-gray-600 mb-4">
+                  Terimakasih kulonit, sekarang aku dapat mengerjakan tugas dan
+                  lebih produktif.
+                </p>
+                <div class="flex items-center space-x-1 star-rating">
+                  <span>★★★★★</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex gap-6">
+              <div
+                class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl p-6"
+                style="color: #212529"
+              >
+                <div class="flex items-center space-x-3 mb-4">
+                  <img
+                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle fill='%23cbd5e1' cx='20' cy='20' r='20'/%3E%3C/svg%3E"
+                    alt="User"
+                    class="w-12 h-12 rounded-full"
+                  />
+                  <div><h4 class="font-bold">Anton</h4></div>
+                </div>
+                <p class="text-sm text-gray-600 mb-4">
+                  Course ini sangat membantu seoula! membuat proyek lebih lancar
+                  dan lebih cepat.
+                </p>
+                <div class="flex items-center space-x-1 star-rating">
+                  <span>★★★★★</span>
+                </div>
+              </div>
+
+              <div
+                class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl p-6"
+                style="color: #212529"
+              >
+                <div class="flex items-center space-x-3 mb-4">
+                  <img
+                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle fill='%23cbd5e1' cx='20' cy='20' r='20'/%3E%3C/svg%3E"
+                    alt="User"
+                    class="w-12 h-12 rounded-full"
+                  />
+                  <div><h4 class="font-bold">Budi</h4></div>
+                </div>
+                <p class="text-sm text-gray-600 mb-4">
+                  Ia e-course ini sangat worth it untuk yang mau mulai belajar
+                  bahasa baru di dunia IT.
+                </p>
+                <div class="flex items-center space-x-1 star-rating">
+                  <span>★★★★★</span>
+                </div>
+              </div>
+
+              <div
+                class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl p-6"
+                style="color: #212529"
+              >
+                <div class="flex items-center space-x-3 mb-4">
+                  <img
+                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle fill='%23cbd5e1' cx='20' cy='20' r='20'/%3E%3C/svg%3E"
+                    alt="User"
+                    class="w-12 h-12 rounded-full"
+                  />
+                  <div><h4 class="font-bold">Siti</h4></div>
+                </div>
+                <p class="text-sm text-gray-600 mb-4">
+                  Ya e-course ini sangat worth it untuk yang mau mulai belajar
+                  sistem baru di bidang IT.
+                </p>
+                <div class="flex items-center space-x-1 star-rating">
+                  <span>★★★★★</span>
+                </div>
+              </div>
+
+              <div
+                class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl p-6"
+                style="color: #212529"
+              >
+                <div class="flex items-center space-x-3 mb-4">
+                  <img
+                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle fill='%23cbd5e1' cx='20' cy='20' r='20'/%3E%3C/svg%3E"
+                    alt="User"
+                    class="w-12 h-12 rounded-full"
+                  />
+                  <div><h4 class="font-bold">Dewi</h4></div>
+                </div>
+                <p class="text-sm text-gray-600 mb-4">
+                  Terimakasih kulonit, sekarang aku dapat mengerjakan tugas dan
+                  lebih produktif.
+                </p>
+                <div class="flex items-center space-x-1 star-rating">
+                  <span>★★★★★</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Row - Scrolling Right to Left -->
+        <div class="testimonial-row animate-scroll-left">
+          <div class="flex gap-6">
+            <div
+              class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl p-6"
+              style="color: #212529"
+            >
+              <div class="flex items-center space-x-3 mb-4">
+                <img
+                  src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle fill='%23cbd5e1' cx='20' cy='20' r='20'/%3E%3C/svg%3E"
+                  alt="User"
+                  class="w-12 h-12 rounded-full"
+                />
+                <div><h4 class="font-bold">Rina</h4></div>
+              </div>
+              <p class="text-sm text-gray-600 mb-4">
+                Membeli e-course ini sangat worth it untuk belajar bahasa baru
+                di dunia IT.
+              </p>
+              <div class="flex items-center space-x-1 star-rating">
+                <span>★★★★★</span>
+              </div>
+            </div>
+
+            <div
+              class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl p-6"
+              style="color: #212529"
+            >
+              <div class="flex items-center space-x-3 mb-4">
+                <img
+                  src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle fill='%23cbd5e1' cx='20' cy='20' r='20'/%3E%3C/svg%3E"
+                  alt="User"
+                  class="w-12 h-12 rounded-full"
+                />
+                <div><h4 class="font-bold">Ahmad</h4></div>
+              </div>
+              <p class="text-sm text-gray-600 mb-4">
+                Sekarang e-course ini sangat worth it untuk menyelesaikan setiap
+                tugas IT!
+              </p>
+              <div class="flex items-center space-x-1 star-rating">
+                <span>★★★★★</span>
+              </div>
+            </div>
+
+            <div
+              class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl p-6"
+              style="color: #212529"
+            >
+              <div class="flex items-center space-x-3 mb-4">
+                <img
+                  src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle fill='%23cbd5e1' cx='20' cy='20' r='20'/%3E%3C/svg%3E"
+                  alt="User"
+                  class="w-12 h-12 rounded-full"
+                />
+                <div><h4 class="font-bold">Putri</h4></div>
+              </div>
+              <p class="text-sm text-gray-600 mb-4">
+                Keren ni kulonit, aku berhasil menyelesaikan tugas kuliah dan
+                lebih cepat.
+              </p>
+              <div class="flex items-center space-x-1 star-rating">
+                <span>★★★★★</span>
+              </div>
+            </div>
+
+            <div
+              class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl p-6"
+              style="color: #212529"
+            >
+              <div class="flex items-center space-x-3 mb-4">
+                <img
+                  src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle fill='%23cbd5e1' cx='20' cy='20' r='20'/%3E%3C/svg%3E"
+                  alt="User"
+                  class="w-12 h-12 rounded-full"
+                />
+                <div><h4 class="font-bold">Andi</h4></div>
+              </div>
+              <p class="text-sm text-gray-600 mb-4">
+                Sangat berguna untuk kuliah dan tugas akhir lebih cepat dan
+                mudah.
+              </p>
+              <div class="flex items-center space-x-1 star-rating">
+                <span>★★★★★</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex gap-6">
+            <div
+              class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl p-6"
+              style="color: #212529"
+            >
+              <div class="flex items-center space-x-3 mb-4">
+                <img
+                  src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle fill='%23cbd5e1' cx='20' cy='20' r='20'/%3E%3C/svg%3E"
+                  alt="User"
+                  class="w-12 h-12 rounded-full"
+                />
+                <div><h4 class="font-bold">Rina</h4></div>
+              </div>
+              <p class="text-sm text-gray-600 mb-4">
+                Membeli e-course ini sangat worth it untuk belajar bahasa baru
+                di dunia IT.
+              </p>
+              <div class="flex items-center space-x-1 star-rating">
+                <span>★★★★★</span>
+              </div>
+            </div>
+
+            <div
+              class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl p-6"
+              style="color: #212529"
+            >
+              <div class="flex items-center space-x-3 mb-4">
+                <img
+                  src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle fill='%23cbd5e1' cx='20' cy='20' r='20'/%3E%3C/svg%3E"
+                  alt="User"
+                  class="w-12 h-12 rounded-full"
+                />
+                <div><h4 class="font-bold">Ahmad</h4></div>
+              </div>
+              <p class="text-sm text-gray-600 mb-4">
+                Sekarang e-course ini sangat worth it untuk menyelesaikan setiap
+                tugas IT!
+              </p>
+              <div class="flex items-center space-x-1 star-rating">
+                <span>★★★★★</span>
+              </div>
+            </div>
+
+            <div
+              class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl p-6"
+              style="color: #212529"
+            >
+              <div class="flex items-center space-x-3 mb-4">
+                <img
+                  src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle fill='%23cbd5e1' cx='20' cy='20' r='20'/%3E%3C/svg%3E"
+                  alt="User"
+                  class="w-12 h-12 rounded-full"
+                />
+                <div><h4 class="font-bold">Putri</h4></div>
+              </div>
+              <p class="text-sm text-gray-600 mb-4">
+                Keren ni kulonit, aku berhasil menyelesaikan tugas kuliah dan
+                lebih cepat.
+              </p>
+              <div class="flex items-center space-x-1 star-rating">
+                <span>★★★★★</span>
+              </div>
+            </div>
+
+            <div
+              class="min-w-[300px] md:min-w-[350px] bg-white rounded-2xl p-6"
+              style="color: #212529"
+            >
+              <div class="flex items-center space-x-3 mb-4">
+                <img
+                  src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle fill='%23cbd5e1' cx='20' cy='20' r='20'/%3E%3C/svg%3E"
+                  alt="User"
+                  class="w-12 h-12 rounded-full"
+                />
+                <div><h4 class="font-bold">Andi</h4></div>
+              </div>
+              <p class="text-sm text-gray-600 mb-4">
+                Sangat berguna untuk kuliah dan tugas akhir lebih cepat dan
+                mudah.
+              </p>
+              <div class="flex items-center space-x-1 star-rating">
+                <span>★★★★★</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section
+      id="about"
+      class="py-20 bg-white"
+    >
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-bold mb-4">Hubungi Kami</h2>
+          <p class="text-gray-600">Konsultasikan bisnis anda sekarang!</p>
+        </div>
+
+        <a
+          href="https://api.whatsapp.com/send/?phone=6288290449738"
+          class="w-full bg-slate-800 text-white py-4 rounded-lg font-semibold hover:bg-slate-700 transition shadow-lg"
+        >
+          <button
+            type="submit"
+            class="w-full bg-slate-800 text-white py-4 rounded-lg font-semibold hover:bg-slate-700 transition shadow-lg"
+          >
+            Konsultasi via WhatsApp
+          </button>
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="text-white py-12"
+      style="background-color: #212529"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+          <div>
+            <img
+              src="assets/logo/logo-kulonit-putih.png"
+              class="mb-4"
+              alt=""
+            />
+            <!-- <h3 class="text-2xl font-bold mb-4">KULON-T</h3> -->
+            <p class="text-gray-300 mb-4">
+              Belajar Skill Digital<br /><span class="font-bold"
+                >#diluarkampus</span
+              >
+            </p>
+            <p class="text-gray-300 mb-2">Jakarta, Indonesia</p>
+            <p class="text-gray-300 mb-2">
+              +62 882-9044-9738<br />(CS Kulonit)
+            </p>
+            <p class="text-gray-300">kulonitcom@gamil.com</p>
+          </div>
+
+          <div>
+            <h4 class="font-bold mb-4">Category</h4>
+            <ul class="space-y-2 text-gray-300">
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-white transition"
+                  >Web Development</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-white transition"
+                  >Data Analyst</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-white transition"
+                  >UI/UX Design</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-white transition"
+                  >System Analyst</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="font-bold mb-4">Company</h4>
+            <ul class="space-y-2 text-gray-300">
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-white transition"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-white transition"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-white transition"
+                  >Youtube</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-white transition"
+                  >Tiktok</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-white transition"
+                  >Tiktok</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="border-t border-gray-600 pt-8 text-center text-gray-400">
+          <p>&copy; All Rights Reserved Kulonit 2025</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
